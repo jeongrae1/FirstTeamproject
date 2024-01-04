@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{9e98eb20-152f-413d-9cce-5733d17a2298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{21ae346f-f451-48c1-99b1-c91f37983140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{7cd7adc2-64ba-495b-928a-234979e97a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Ui">
+      <UniqueIdentifier>{9cd62d7f-10f3-451c-b139-b31d85471a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Ui\00.BattleUi">
+      <UniqueIdentifier>{025d7350-40f3-4837-a419-c6e45bf5e53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Ui\00.BattleUi\00.Score">
+      <UniqueIdentifier>{06738bbf-de0a-42b3-8d7d-2452ed48aec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Ui\00.BattleUi\01.Life">
+      <UniqueIdentifier>{ae9e056e-f363-42d1-8039-1be80bacbea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Ui\00.BattleUi\02.Bomb">
+      <UniqueIdentifier>{62244eeb-cc26-4360-9133-c295611b8423}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultEWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CUiMgr.h">
+      <Filter>02.Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="CScore.h">
+      <Filter>02.Ui\00.BattleUi\00.Score</Filter>
+    </ClInclude>
+    <ClInclude Include="CLife.h">
+      <Filter>02.Ui\00.BattleUi\01.Life</Filter>
+    </ClInclude>
+    <ClInclude Include="CBomb.h">
+      <Filter>02.Ui\00.BattleUi\02.Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleUIMgr.h">
+      <Filter>02.Ui\00.BattleUi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DefaultEWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CUiMgr.cpp">
+      <Filter>02.Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="CScore.cpp">
+      <Filter>02.Ui\00.BattleUi\00.Score</Filter>
+    </ClCompile>
+    <ClCompile Include="CLife.cpp">
+      <Filter>02.Ui\00.BattleUi\01.Life</Filter>
+    </ClCompile>
+    <ClCompile Include="CBomb.cpp">
+      <Filter>02.Ui\00.BattleUi\02.Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleUIMgr.cpp">
+      <Filter>02.Ui\00.BattleUi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultEWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultEWindow.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
